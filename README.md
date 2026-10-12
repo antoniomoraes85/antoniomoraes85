@@ -1,53 +1,44 @@
 # José Antônio Coutinho de Moraes Filho
 
-MSc researcher in Computer Science at UFRGS working at the intersection of
-optimization, reinforcement learning, control systems, and computational performance.
+**Computer Science MSc researcher at UFRGS**  
+**Career focus:** AI Research Engineering · ML Systems Engineering  
+**Specialization:** Numerical Optimization · Reinforcement Learning · Computational Performance
 
-## Research
+I work at the intersection of **control, learning, and efficient computation**. My current focus is on building reproducible experiments that explain not just *whether* an algorithm works, but **what drives its computational cost**.
 
-My current MSc research investigates how the structure and dynamics of control
-problems influence computational cost in Model Predictive Control (MPC) and
-Reinforcement Learning (RL).
+## Research focus
 
-The research studies structural descriptors of MPC optimization problems,
-including Hessian and KKT-system dimensions, together with dynamic properties
-of the controlled system, to understand the computational cost of MPC inference
-and RL training.
+My MSc research at the Federal University of Rio Grande do Sul (UFRGS) investigates the relationship between **control-problem structure** and the computational costs of **Model Predictive Control (MPC)** and **Reinforcement Learning (RL)**.
 
-## Research Interests
+- **MPC:** study online optimization cost using quadratic-program structure, including Hessian dimensions, KKT-system dimensions, constraints, and solver effort.
+- **RL:** study offline training cost, environment transitions, updates, and evaluation at comparable control quality.
+- **Dynamics:** investigate whether properties of the system matrix (including spectral radius and norm) help explain the observed costs.
+- **Research question:** do structural and dynamical descriptors explain computational difficulty better than state dimension alone?
 
-- Numerical Optimization
-- Reinforcement Learning
-- Computational Performance
-- Scientific Computing
-- Control Systems
-- Statistical Computing
+This is an ongoing empirical research program, **not a claim of general equivalence or superiority between MPC and RL**.
 
-## Current Development Focus
+## Selected work
 
-- Scientific Python
-- Numerical Optimization
-- Reproducible Experimentation
-- Git and Linux
-- Reinforcement Learning Evaluation
-- Computational Benchmarking
+| Project | What it demonstrates | Status |
+| --- | --- | --- |
+| [Reinforcement Learning Experiments](https://github.com/antoniomoraes85/reinforcement-learning-projects) | MountainCar-v0: Q-learning, SARSA(λ), and Dyna-Q; 108 screening runs and 60 final training runs, with saved checkpoints, common evaluation seeds, statistical reports, and reproducibility artifacts | Documented experimental study |
+| [Inverted Pendulum Control](https://github.com/antoniomoraes85/projeto_pendulo_invertido) | Linearization, LQR, MPC, PPO, robustness simulation, and a C implementation of an LQR feedback kernel | Exploratory control/optimization prototype |
+| [Atratora Forge](https://github.com/antoniomoraes85/atratora-forge) | Local-first technical tooling with React, TypeScript, automated tests, and a modular application architecture | Software engineering project |
+| [ORAL LAB](https://github.com/antoniomoraes85/oral-lab) | Browser-based speech-assisted rehearsal platform, with text alignment, scoring, offline support, and tests | Applied software project |
 
-## Career Direction
+For the RL study, the conclusions are **specific to the published experimental protocol**. The inverted-pendulum repository is a prototype; its performance and real-time properties should not be interpreted as independently certified production benchmarks.
 
-AI Research Engineering / ML Systems Engineering
+## Technical interests and current development
 
-Specialization:
+- **Research & methods:** numerical optimization, RL, control systems, experimental design, statistical computing.
+- **Tools in active use:** Python, NumPy, scientific notebooks, Git, reproducible experiment pipelines, performance measurement.
+- **Systems direction:** C/C++, Linux, profiling, efficient inference, hardware/software co-design.
+- **Longer-term learning roadmap:** GPU/CUDA programming and distributed ML systems.
 
-**Optimization + Reinforcement Learning + AI Performance**
+**Career direction:** bridge rigorous algorithm evaluation with practical **ML systems performance engineering**.
 
-## Selected Projects
+## Connect
 
-### Inverted Pendulum Control
-Control, robustness analysis, numerical experimentation and low-level implementation.
-
-### Radar Data Dashboard
-Exploratory analysis and visualization of traffic accident data.
-
-## Current Roadmap
-
-Optimization → Reinforcement Learning → Performance → ML Systems → C++ → GPU/CUDA → Distributed ML
+- [LinkedIn](https://www.linkedin.com/in/joseantoniomoraes/)
+- [Email](mailto:antoniomoraes.ti@gmail.com)
+- [Research Instagram](https://instagram.com/jose.antonio.moraes.research)
